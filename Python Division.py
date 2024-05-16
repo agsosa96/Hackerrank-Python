@@ -6,9 +6,6 @@
 
 #No rounding or formatting is necessary.
 
-
-
-
 if __name__ == '__main__':
     a = int(input())
     b = int(input())
