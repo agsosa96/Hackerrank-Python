@@ -1,0 +1,25 @@
+# A newly opened multinational brand has decided to base their company logo
+# on the three most common characters in the company name. They are now 
+# trying out various combinations of company names and logos based on this
+# condition. Given a string s. which is the company came in lowercase 
+# letters, your task is to find the top three most common characters in 
+# the string.
+
+# • Print the three most common characters along with their accurrence 
+# count.
+# • Sort in descending order of accurrence count.
+# • If the occurrence count is the same, sort the characters in 
+# alphabetical order.
+
+# For example, according to the conditions described above. 
+
+# GOOGLE would have its to the letters
+# G, O, E
+
+if __name__ == '__main__':
+    s = input()
+
+    conjunto = list(set(s))
+
+    print(s.count("a"))
+    print(conjunto)
